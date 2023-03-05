@@ -1,0 +1,34 @@
+.free14days{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    display: block;
+    width: 60%;
+}
+.free14days_2nd{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    display: block;
+    width: 160px;
+    margin: 40px auto;
+}
+a{
+    text-decoration: none;
+}
+.reverse:nth-child(odd)>.row{
+    display: flex;
+    flex-direction: row-reverse;
+}
+header>ul>li>a ,header>div>a{
+    color: black;
+}
+footer{
+    background-color: #00142D;
+    color: white;
+}
+footer>div>div>div>nav>.list-unstyled>li>a{
+    color: rgba(255, 255, 255, 0.545);
+}
